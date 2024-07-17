@@ -28,7 +28,7 @@ jobs:
       run: docker build -t aperezgdev/docker-graphql .
 
     - name: Push Docker Image
-      run: docker push aperezgdev/docker .
+      run: docker push aperezgdev/docker
         
     #- name: Build the Docker image
     # run: docker build . --file Dockerfile --tag aperezgdev/docker-graphql:$(date +%s)
